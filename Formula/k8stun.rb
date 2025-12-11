@@ -4,13 +4,13 @@
 class K8stun < Formula
   desc "Kubernetes Userspace Network Tunnel - transparent access to K8s services"
   homepage "https://github.com/tsroka/k8stun"
-  version "0.1.0-alpha"
+  version "0.1.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
       url "https://github.com/tsroka/k8stun/releases/download/v#{version}/k8stun-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "37998eefe169e520ed32ec714c3d69807ba00c4f99153a7c462a1f440d88cffa"
+      sha256 "dd6db392cd5f4889626c18208526aabbe1dbde16c2f4b39ce2efc43e0572ff49"
     end
   end
 
