@@ -1,6 +1,6 @@
 # Homebrew Tap for kpipe
 
-This is the official [Homebrew](https://brew.sh/) tap for [k8stun](https://github.com/tsroka/kpipe) - Kubernetes Userspace Network Tunnel.
+This is the official [Homebrew](https://brew.sh/) tap for [kpipe](https://github.com/tsroka/kpipe) - Kubernetes Userspace Network Tunnel.
 
 ## Installation
 
@@ -18,7 +18,7 @@ brew install tsroka/kpipe/kpipe
 
 ## Usage
 
-k8stun requires root privileges to create TUN devices and modify routing:
+kpipe requires root privileges to create TUN devices and modify routing:
 
 ```bash
 # Expose services from the default namespace
@@ -49,5 +49,5 @@ brew reinstall kpipe
 
 ## License
 
-k8stun is dual-licensed under MIT and Apache 2.0.
+kpipe is dual-licensed under MIT and Apache 2.0.
 
